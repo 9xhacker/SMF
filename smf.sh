@@ -11,14 +11,13 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "Curl is not installed ! Install 
 command -v ssh > /dev/null 2>&1 || { echo >&2 "Openssh is not installed ! Install it"; exit 1; }
 command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip is not installed ! Install it"; exit 1; }
 }
-banner() {
-clear
-printf " \e[91m ███████╗\e[0m\e[1;92m ███╗   ███╗ \e[0m\e[1;93m ███████╗  \e[0m\e[1;91m ▄█▀─▄▄▄▄▄▄▄─▀█▄ \e[0m\n"
-printf " \e[91m ██╔════╝\e[0m\e[1;92m ████╗ ████║ \e[0m\e[1;93m ██╔════╝ \e[0m\e[1;91m  ▀█████████████▀ \e[0m\n"
-printf " \e[91m ███████╗\e[0m\e[1;92m ██╔████╔██║ \e[0m\e[1;93m █████╗ \e[0m\e[1;91m        █▄███▄█ \e[0m\n"
-printf " \e[91m ╚════██║\e[0m\e[1;92m ██║╚██╔╝██║ \e[0m\e[1;93m ██╔══╝ \e[0m\e[1;91m         █████ \e[0m\n"
-printf " \e[91m ███████║\e[0m\e[1;92m ██║ ╚═╝ ██║ \e[0m\e[1;93m ██║ \e[0m\e[1;91m            █▀█▀█ \e[0m\n"
-printf " \e[91m ╚══════╝\e[0m\e[1;92m ╚═╝     ╚═╝ \e[0m\e[1;93m ╚═╝ \e[0m\e[40;38;5;82mversion\e[30;48;5;82m1.2\e[0m\n"
+banner() {jnnn
+clearhj
+printf " \e[91mjkknmj \e[0m\e[1;92m ███╗   ███╗ \e[0m\e[1;93m ███████╗  \e[0m\e[1;91m ▄█▀─▄▄▄▄▄▄▄─▀█▄ \e[0m\n"
+printf " \e[91mmmk ██╔════╝\e[0m\e[1;92m ████╗ ████║ \e[0m\e[1;93m ██╔════╝ \e[0m\e[1;91m  ▀█████████████▀ \e[0m\n"
+printf " \e[91m █mm██████╗\e[0m\e[1;92m ██╔████╔██║ \e[0m\e[1;93m █████╗ \e[0m\e[1;91m        █▄███▄█ \e[0m\n"
+printf " \e[91m ╚═kmkMkkm═══██║\e[0m\e[1;92m ██║╚██╔╝██║ \e[0m\e[1;93m ██╔══╝ \e[0m\e[1;91m         █████ \e[0m\n"
+njjjjprintf " \e[91m ╚══════╝\e[0m\e[1;92m ╚═╝     ╚═╝ \e[0m\e[1;93m ╚═╝ \e[0m\e[40;38;5;82mversion\e[30;48;5;82m1.2\e[0m\n"
 printf " \e[44m CODE RE BY TECH COCHI \e[0m\n"
 printf " \n"
 }
